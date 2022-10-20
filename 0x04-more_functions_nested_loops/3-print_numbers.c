@@ -10,9 +10,9 @@ void print_numbers(void)
 {
 	char c;
 
-	c = '0';
+	c = 0;
 
-	while (c < '10')
+	while (c < 10)
 	{
 	_putchar(c);
 	c++;
